@@ -1,0 +1,14 @@
+@media only screen and (max-width: 320px) {
+    img {
+        width: 320px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 250px;
+    }
+
+    h1 {font-size: 16px;}
+    h2 {font-size: 13px;}
+    p {font-size: 12px;}
+}  

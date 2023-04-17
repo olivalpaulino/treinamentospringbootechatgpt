@@ -1,9 +1,42 @@
-* {
-    margin: 0px;
-    padding: 0px;
+/* Defina estilos apenas para os elementos necessários */
+header, main, li, section, iframe, #btnCompra, footer {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lime;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+#t2-branco {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+header {
+    /* Use classes em vez de IDs */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,17 +70,22 @@ iframe {
     border-radius: 10px;
 }
 
-#btnCompra {
-    border: 1px solid lightskyblue;
+#btn-compra {
+    border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
-    background-color: deepskyblue;
-    background-color: royalblue;
-    background-color: #36CDF7;
-    color: black;
+    background-color: lime;
+    color:black;
     font-weight: bold;
     text-decoration: none;
+}
 
+#btn-compra:hover {
+    background-color: deepskyblue;
+}
+
+a {
+    text-align: center;
 }
 
 footer {

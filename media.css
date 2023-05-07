@@ -2,8 +2,8 @@
 @media only screen and (min-width: 2561px) {
     h1 {font-size: 72px;}
     h2 {font-size: 48px;}
-    p {font-size: 38px;}
-    a {font-size: 38px;}
+    p {font-size: 36px;}
+    a {font-size: 36px;}
   
     img {
       max-width: 100%;
@@ -20,8 +20,8 @@
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
     h1 {font-size: 60px;}
     h2 {font-size: 40px;}
-    p {font-size: 32px;}
-    a {font-size: 32px;}
+    p {font-size: 30px;}
+    a {font-size: 30px;}
   
     img {
       max-width: 100%;
@@ -37,9 +37,9 @@
 /* estilos para dispositivos com largura de tela entre 1601px e 1920px */
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
     h1 {font-size: 48px;}
-    h2 {font-size: 32px;}
-    p {font-size: 26px;}
-    a {font-size: 26px;}
+    h2 {font-size: 38px;}
+    p {font-size: 28px;}
+    a {font-size: 28px;}
   
     img {
       max-width: 100%;
@@ -55,9 +55,9 @@
 /* estilos para dispositivos com largura de tela entre 1367px e 1600px */
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
     h1 {font-size: 42px;}
-    h2 {font-size: 28px;}
-    p {font-size: 22px;}
-    a {font-size: 22px;}
+    h2 {font-size: 34px;}
+    p {font-size: 26px;}
+    a {font-size: 26px;}
   
     img {
       max-width: 100%;

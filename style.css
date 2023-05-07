@@ -1,48 +1,32 @@
 /* Defina estilos apenas para os elementos necessários */
-header, main, li, section, iframe, #btnCompra, footer {
-    margin: 0;
-    padding: 0;
+body, header, main, li, section, iframe, #btnCompra, footer, figure {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-color: black;
-    color: white;
-}
-
-h1 {
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: lime;
     color: black;
-    text-align: center;
-}
-
-h2 {
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: deepskyblue;
-    color: black;
-    padding: 10px;
-    text-align: center;
-}
-
-#t2-branco {
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    padding: 10px;
 }
 
 header {
-    /* Use classes em vez de IDs */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+.cta1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 
 main {
@@ -52,10 +36,6 @@ main {
     align-items: center;
     align-content: center;
     text-align: center;
-}
-
-li {
-    list-style-type: none;
 }
 
 section {
@@ -70,18 +50,18 @@ iframe {
     border-radius: 10px;
 }
 
-#btn-compra {
+.btn-compra {
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
-    background-color: lime;
-    color:black;
+    background-color: #006dff;
+    color:hsla(0,0%,100%,.8);
     font-weight: bold;
     text-decoration: none;
 }
 
-#btn-compra:hover {
-    background-color: deepskyblue;
+.btn-compra:hover {
+    background-color: #6DB33F;
 }
 
 a {
